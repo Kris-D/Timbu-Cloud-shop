@@ -1,0 +1,67 @@
+
+.head{
+    border-bottom: 1px solid #F8309F;
+}
+.logocart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 360px 30px 390px;
+}
+.icons{
+    display: flex;
+    gap:15px;
+}
+.filterbyproduct{
+    padding: 25px 360px 15px 390px;
+}
+.filterbyproducthead{
+    display: flex;
+    gap: 230px;
+    align-items: center;
+}
+.filterbyproducthead p{
+font-weight: 200;
+font-size: 24px;
+}
+.headboxes{
+    display: flex;
+    gap: 38px;
+}
+.filterbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #8F478F;
+    min-width: 110px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+  }
+.filterbox3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #8F478F;
+    min-width: 150px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    position: relative;
+    border-radius: 6px;
+  }
+  .filterbox span, .filterbox3 span{
+    /* font-size: 13px; */
+    color: #656966;
+  }
+  
+  .productlist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; /* Adjust the gap between items as needed */
+    /* max-width: 1000px;  */
+    margin: auto; /* Center the grid */
+    margin-top: 30px;
+  }
