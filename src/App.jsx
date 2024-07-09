@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-     <BrowserRouter>
+     <BrowserRouter basename="/Timbu-Cloud-shop">
      <Routes> 
      <Route path="/" element={<Productlist/>} />
      <Route path="/cart" element={<Cart/>} />
