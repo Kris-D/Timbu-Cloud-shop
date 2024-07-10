@@ -1,0 +1,15 @@
+.carthead{
+    padding: 30px 30px 15px 50px;
+    
+    gap: 10px;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 1px solid #D0CFCF;
+    
+}
+.cartheadbody{
+    cursor: pointer;
+    display: flex;
+    width: 150px;
+}
