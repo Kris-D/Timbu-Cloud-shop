@@ -42,3 +42,23 @@ export const productlist = [
         star: 4,
     },
 ]
+export const cartlist = [
+    {
+        id: "1",
+        img:"./images/1.svg",
+        name:"Mac Lipstick",
+        price: "N5000", 
+    },
+    {
+        id: "2",
+        img: "./images/4.svg",
+        name:"Mac Lipstick",
+        price: "N5000",
+    },
+    {
+        id: "3",
+        img: "./images/5.svg",
+        name:"Mac Lipstick",
+        price: "N5000",
+    },
+]
